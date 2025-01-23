@@ -56,22 +56,16 @@ class Node implements Comparable<Node> {
 public class AStarPuzzle {
     public static HashMap<Integer, int[]> goalPositions = new HashMap<>(); 
     public static final int[][] GOAL_STATE = {
-        // {7, 8, 1}, 
-        // {6, 0, 2}, 
-        // {5, 4, 3}
-        {1,2,3},
-        {4,5,0},
-        {6,7,8}
+        {7, 8, 1}, 
+        {6, 0, 2}, 
+        {5, 4, 3}
     };
 
     public static void main(String[] args) {
         int[][] initial_state = {
-            // {1, 6, 2}, 
-            // {5, 7, 8}, 
-            // {0, 4, 3}
-            {1,2,3},
-            {4,0,5},
-            {6,7,8}
+            {1, 6, 2}, 
+            {5, 7, 8}, 
+            {0, 4, 3}
         };
         solve(initial_state);
     }
