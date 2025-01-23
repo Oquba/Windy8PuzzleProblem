@@ -120,7 +120,6 @@ public class AStarPuzzle {
         }
     }
 
-    /* NEED TO COMPLETE THIS */
     public static List<Node> createChildren(Node parent) {
         List<Node> children = new ArrayList<>();
         int blankRow = parent.blankPosition[0];
